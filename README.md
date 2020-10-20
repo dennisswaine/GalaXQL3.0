@@ -7,7 +7,7 @@ Khan Academy: Intro to SQL
 
 http://www.sqlteaching.com/ 
 
-http://sol.gfxile.net/galaxql.html
+http://sol.gfxile.net/galaxql.html - lessons involving stars,planets and moons. Large data-set and some interesting complex queries. Sadly quite buggy. [Qs and As](https://github.com/dennisswaine/SQL-Learning/blob/main/3GalaXQL_answers)
 
 http://studybyyourself.com/seminar/sql/course/?lang=en
 
