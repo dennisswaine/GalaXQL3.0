@@ -1,0 +1,10 @@
+As your very first task, use SQL to calculate the number of seconds in one 
+day (where day is 24 hours, hour is 60 minutes and a minute is 60 seconds).
+
+SELECT (60*60)*24
+
+Let's see if you can build a query now. Get x, y and z information from all 
+the rows from the table 'stars'.
+SELECT x,y,z FROM stars
+
+S
