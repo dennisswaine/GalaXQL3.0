@@ -69,4 +69,10 @@ ON planets.starid = stars.starid
 WHERE stars.starid < 600
 AND stars.starid > 500;
 
+12. Create a VIEW called "numbers" with the columns "three", "intensity" and "x", where "x" and "intensity" come from the stars table, "three" contains the number 3 on all rows. For additional fun, sort the whole thing by "x" - although I won't care.
+
+
+CREATE VIEW numbers AS SELECT 3 AS three, stars.intensity AS intensity, stars.x AS x FROM stars
+ORDER BY x;v
+
 
