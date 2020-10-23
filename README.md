@@ -3,7 +3,7 @@
 Documenting my SQL Learning journey (in order)
 
 
-Khan Academy: Intro to SQL 
+Khan Academy: Intro to SQL. My first attempt at learning SQL. [Project code here](https://github.com/dennisswaine/SQL-Learning/blob/main/1KhanAcademy-IntroToSQL)
 
 http://www.sqlteaching.com/ 
 
