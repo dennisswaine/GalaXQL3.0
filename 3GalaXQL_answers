@@ -74,5 +74,39 @@ AND stars.starid > 500;
 CREATE VIEW numbers AS SELECT 3 AS three, stars.intensity AS intensity, stars.x AS x FROM stars
 ORDER BY x;
 
+13. Create a table named 'colors' with the columns 'color' and 'description'. Color is integer, description is text. 
+Populate the table with color values from -3 to 10; each star class has its own color; fill the description with something (I won't care exactly what). 
+Basic idea is that it will be possible to make a join between stars and colors where stars' class is compared to colors' color number.
 
+CREATE TABLE colors (color INTEGER, description TEXT);
+INSERT INTO colors(color,description) VALUES 
+(-3,"happy"),(-2,"sad"),(-1,"angry"),(0,"cold"),(1,"blue"),(2,"lonely"),(3,"first"
+),(4,"toomuch"),(5,"down"),(6,"nispey"),(7,"borat"),(8,"ali"),(9,"chump"),(10,
+"green");
 
+14. reate a table called "quotes" with two columns: "id", which is primary key, and takes integers, and "quote" which contains non-null text strings, such as quote of the day (http://www.qotd.org/). 
+Fill in a couple of rows so that I have something to query for.
+
+CREATE TABLE quotes VALUES (id INTEGER PRIMARY KEY, quote TEXT NOT NULL);
+INSERT INTO quotes VALUES (1,'turn around lets make magic')
+INSERT INTO quotes VALUES (2,'this is really a jungle')
+INSERT INTO quotes VALUES (3,'panthers and anacondas');
+
+15. First, create and populate a table using this command. Rename the table to 'my_table', and add a column called 'moredata'. 
+Add one whole new row and change the 'moredata' value of at least one existing row. 
+(Yes, I'm aware you could do all that by changing the creation commands, but that is not the point of this exercise).
+
+ALTER TABLE alter_test RENAME TO my_table;
+ALTER TABLE my_table ADD COLUMN moredata TEXT;
+INSERT INTO my_table (moredata) VALUES ('Saltfish');
+
+16. Hilight the star with the most orbitals (combined planets and moons). If multiple stars have the highest number of orbitals, highlight the one with the lowest star id.
+
+SELECT stars.starid AS starid FROM stars
+LEFT OUTER JOIN planets ON stars.starid = planets.starid
+LEFT OUTER JOIN moons ON moons.planetid = planets.planetid
+GROUP BY stars.starid ORDER BY (COUNT (planets.planetid) + (COUNT(moons.moonid))
+DESC
+LIMIT 1;
+
+17. 
