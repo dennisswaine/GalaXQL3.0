@@ -109,4 +109,22 @@ GROUP BY stars.starid ORDER BY (COUNT (planets.planetid) + (COUNT(moons.moonid))
 DESC
 LIMIT 1;
 
-17. 
+17. Build a query which returns starids from planets.
+The starids should be selected so that for each starid (x) in the list:
+- there should exist a planet with a starid that's three times x
+but
+- there should not exist a planet with starid two times x.
+Only use starids from the planets table.
+
+SELECT starid FROM planets;
+INTERSECT SELECT starid*3 FROM planets;
+EXCEPT SELECT starid*2 FROM planets;
+
+18. Create a trigger which, when a new star is created, clears the hilight table and inserts the new star id to the hilight table.
+
+CREATE TRIGGER clearhilight AFTER INSERT ON stars
+BEGIN INSERT INTO hilights (NEW.starid); END
+
+19. Use ALTER TABLE to rename the 'gateway' table to 'gateways'. (ALTER TABLE was covered in chapter 16).
+
+ALTER TABLE gateway RENAME TO gateways
