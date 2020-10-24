@@ -5,7 +5,7 @@ Documenting my SQL Learning journey (in order)
 
 Khan Academy: Intro to SQL. My first attempt at learning SQL. [Project code here](https://github.com/dennisswaine/SQL-Learning/blob/main/1KhanAcademy-IntroToSQL)
 
-http://www.sqlteaching.com/ 
+http://www.sqlteaching.com/. An enjoyable tutorial learning basic queries. [Qs and As here](https://github.com/dennisswaine/SQL-Learning/blob/main/2SQLTeaching.sql)
 
 http://sol.gfxile.net/galaxql.html - Lessons involving stars,planets and moons. Large data-set and some interesting complex queries. Sadly quite buggy. [Qs and As](https://github.com/dennisswaine/SQL-Learning/blob/main/3GalaXQL_answers)
 
