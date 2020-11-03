@@ -9,7 +9,7 @@ http://www.sqlteaching.com/. An enjoyable tutorial learning basic queries. [Qs a
 
 http://sol.gfxile.net/galaxql.html - Lessons involving stars,planets and moons. Large data-set and some interesting complex queries. Sadly quite buggy. [Qs and As](https://github.com/dennisswaine/SQL-Learning/blob/main/3GalaXQL_answers)
 
-http://studybyyourself.com/seminar/sql/course/?lang=en
+http://studybyyourself.com/seminar/sql/course/?lang=en - Delved into some harder queries and syntax. Subqueries were particularly tricky, as this was my first experience with them. [Qs and As here](https://github.com/dennisswaine/SQL-Learning/blob/main/4StudyByYourself.sql)
 
 http://sqlschool.modeanalytics.com/
 
