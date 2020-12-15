@@ -11,7 +11,7 @@ http://sol.gfxile.net/galaxql.html - Lessons involving stars,planets and moons. 
 
 http://studybyyourself.com/seminar/sql/course/?lang=en - Delved into some harder queries and syntax. Subqueries were particularly tricky, as this was my first experience with them. [Qs and As here](https://github.com/dennisswaine/SQL-Learning/blob/main/4StudyByYourself.sql)
 
-http://sqlschool.modeanalytics.com/ Completed both the Basic Tutorial [Qs and As](https://github.com/dennisswaine/SQL-Learning/blob/main/5aBasicMode.sql) and the Intermediate Tutorial[Qs and As](https://github.com/dennisswaine/SQL-Learning/blob/main/5bIntermediateMode.sql) The Intermediate took some time due to a disaster which involved losing lots of my progress and the general advanced features discussed.
+http://sqlschool.modeanalytics.com/ Completed both the Basic Tutorial [Qs and As here,](https://github.com/dennisswaine/SQL-Learning/blob/main/5aBasicMode.sql) and the Intermediate Tutorial, [Qs and As here](https://github.com/dennisswaine/SQL-Learning/blob/main/5bIntermediateMode.sql) The Intermediate took some time due to a disaster which involved losing lots of my progress and the general advanced features discussed.
 
 https://bootcamp.chartio.com/
 
